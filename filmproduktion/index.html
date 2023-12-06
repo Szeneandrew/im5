@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Filmproduktion</title>
+  <link rel="icon" href="img/cameraicon.png" sizes="256x256" type="image/png">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+
+    <div class="select-menu">
+        <div class="select-btn" id="home-menu">
+            <ion-icon name="home-outline" class="icon-script" id="icon-home" onclick="window.location='#home-main'"></ion-icon>
+            <span class="menu-btn" onclick="window.location='#home-main'">Home</span>
+        </div>
+    </div>
+
+    <div class="select-menu" id="entwicklung-menu">
+        <div class="select-btn" id="select-btn">
+            <ion-icon name="create-outline" class="icon-script" onclick="window.location='#entwicklung-main'"></ion-icon>
+            <span class="entwicklung-menu menu-btn" onclick="window.location='#entwicklung-main'">Entwicklung</span>
+            <ion-icon name="chevron-down-outline" class="icon-arrow" id="select-btn-icon"></ion-icon>
+        </div>
+
+        <ul class="list" id="entwicklung-list">
+            <li class="option">
+                <span class="option-text" id="synopsis-menu">Synopsis</span>
+            </li>
+            <li class="option">
+                <span class="option-text" id="exposé-menu">Exposé</span>
+            </li>
+            <li class="option">
+                <span class="option-text" id="treatment-menu">Treatment</span>
+            </li>
+            <li class="option" style="--i:1;">
+                <span class="option-text" id="drehbuch-menu">Drehbuch</span>
+            </li>
+        </ul>
+    </div>
+      
+    <div class="select-menu" id="preproduction-menu">
+        <div class="select-btn" id="select-btn-2">
+            <ion-icon name="extension-puzzle-outline" class="icon-script" onclick="window.location='#preproduction-main'"></ion-icon>
+            <span class="preproduction-menu menu-btn" onclick="window.location='#preproduction-main'">Pre-Production</span>
+            <ion-icon name="chevron-down-outline" class="icon-arrow" id="select-btn-icon-2"></ion-icon>
+        </div>
+
+        <ul class="list" id="preproduction-list">
+            <li class="option" style="--i:4;">
+                <span class="option-text" id="locationScouting-menu">Location Scouting</span>
+            </li>
+            <li class="option" style="--i:3;">
+                <span class="option-text" id="casting-menu">Casting</span>
+            </li>
+            <li class="option" style="--i:2;">
+                <span class="option-text" id="shotlist-menu">Shotlist</span>
+            </li>
+            <li class="option" style="--i:1;">
+                <span class="option-text" id="storyboard-menu">Storyboard</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="select-menu" id="production-menu">
+        <div class="select-btn" id="select-btn-3">
+            <ion-icon name="videocam-outline" class="icon-script" onclick="window.location='#production-main'"></ion-icon>
+            <span class="production-menu menu-btn" onclick="window.location='#production-main'">Production</span>
+            <ion-icon name="chevron-down-outline" class="icon-arrow" id="select-btn-icon-3"></ion-icon>
+        </div>
+
+        <ul class="list" id="production-list">
+            <li class="option" id="option2" style="--i:1">
+                <span class="option-text" id="dreharbeiten-menu">Dreharbeiten</span>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="select-menu" id="postproduction-menu">
+        <div class="select-btn" id="select-btn-4">
+            <ion-icon name="desktop-outline" class="icon-script" onclick="window.location='#postproduction-main'"></ion-icon>
+            <span class="postproduction-menu menu-btn" onclick="window.location='#postproduction-main'">Post-Production</span>
+            <ion-icon name="chevron-down-outline" class="icon-arrow" id="select-btn-icon-4"></ion-icon>
+        </div>
+
+        <ul class="list" id="postproduction-list">
+            <li class="option" style="--i:3;">
+                <span class="option-text" id="schnitt-menu">Schnitt</span>
+            </li>
+            <li class="option" style="--i:2;">
+                <span class="option-text" id="vertonung-menu">Vertonung</span>
+            </li>
+            <li class="option"  id="option3" style="--i:1;">
+                <span class="option-text" id="grading-menu">Grading</span>
+            </li>
+        </ul>
+    </div>
+    
+  </header>
+
+  
+
+<main id="main">
+<section class="home part" id="home-main" data-color="#088789">
+    <h1 class="title" id="home-title">Die Filmproduktion</h1>
+    <div class="square" id="squareHome"></div>
+    <div class="flex">
+        <h2 class="title2" id="filmproduktion">FILMPRODUKTIONFILMPRODUKTIONFILMPRODUKTIONFILMPRODUKTION</h2>
+            <p class="text"> Die Filmproduktion durchläuft einen organischen Prozess mit vier Hauptphasen. In der Ideenentwicklung entsteht die Grundidee für den Film, sei es durch Drehbuchschreiben, Konzeptentwicklung oder basierend auf einem vorhandenen Werk. Anschließend erfolgt die Preproduction, in der alle Vorbereitungen getroffen werden, von Budgetierung über Casting bis hin zum Location-Scouting. Während der Production werden die vorbereiteten Konzepte in die Tat umgesetzt, indem Szenen gedreht und das geplante Material aufgenommen wird. Schließlich folgt die Postproduction, in der die aufgenommenen Szenen geschnitten, visuelle Effekte hinzugefügt, der Sound bearbeitet und die musikalische Untermalung erstellt werden. Jede Phase ist entscheidend für den Erfolg des Films und erfordert präzise Planung und Koordination. </p>
+                <img src="img/filmset-2.jpg" alt="filmset" class="bild"> 
+    </div>
+</section>
+
+<section class="entwicklung part" id="entwicklung-main" data-color="#503c2d">
+    <h1 class="title" id="entwicklung-title">Entwicklung</h1>
+    <div class="square" id="squareEntwicklung"></div>
+    <div class="flexRev">
+        <h2 class="title2" id="entwicklung">ENTWICKLUNGENTWICKLUNGENTWICKLUNGENTWICKLUNGENTWICKLUNG</h2>
+            <p class="textRev">In der Entwicklung entsteht das Gerüst für den Film. Dazu sind folgende vier Phasen notwendig:</p>
+                <img src="img/writersroom.jpg" alt="writers room" class="bild">
+    </div>
+    <div class="kasten" id="kastenEntwicklung">
+        <div class="synopsis liste" id="synopsis" style="--i:1">
+        <h3>SYNOPSIS</h3>
+            <p class="kastenText">Eine Film-Synopsis ist eine kurze Zusammenfassung der Handlung eines Films, die einen schnellen Einblick in die zentralen Elemente der Geschichte gibt. Sie dient dazu, das Interesse von Investoren und Produzenten zu wecken und wird oft als erster Eindruck eines Filmprojekts verwendet.</p>
+        </div>
+        <div class="exposé liste" id="exposé" style="--i:2">
+        <h3>EXPOSÉ</h3>
+            <p class="kastenText">Ein Filmexposé ist eine ausführlichere schriftliche Beschreibung eines Filmprojekts als eine Synopsis. Es enthält Details zur Handlung, Charakterentwicklung, Stil und anderen kreativen Elementen.</p>
+        </div>
+        <div class="treatment liste" id="treatment" style="--i:3">
+        <h3>TREATMENT</h3>
+            <p class="kastenText">Ein Filmtreatment ist ein schriftliches Dokument, das zwischen einer Film-Synopsis und einem vollständigen Drehbuch liegt. Es bietet eine umfassendere Ausarbeitung der Geschichte und Charaktere als eine Synopsis, enthält jedoch nicht alle Details und Dialoge, die in einem Drehbuch zu finden sind.</p>
+        </div>
+        <div class="drehbuch liste" id="drehbuch" style="--i:4">
+        <h3>DREHBUCH</h3>
+            <p class="kastenText">Ein Drehbuch ist eine schriftliche Vorlage für einen Film oder eine Fernsehsendung. Es ist ein detailliertes Dokument, das die Dialoge, Handlungen, Einstellungen und alle anderen kreativen Elemente enthält, die für die Produktion eines audiovisuellen Werks benötigt werden. Das Drehbuch dient als grundlegende Anleitung für Regisseure, Schauspieler und das gesamte Filmteam während der Dreharbeiten.</p>
+        </div>
+    </div>
+</section>
+
+<section class="preproduction part" id="preproduction-main" data-color="#d44c19">
+    <h1 class="title" id="preproduction-title">Pre-Production</h1>
+    <div class="square" id="squarePreproduction"></div>
+    <div class="flex">
+        <h2 class="title2" id="preproduction">PREPRODUCTIONPREPRODUCTIONPREPRODUCTIONPREPRODUCTION</h2>
+            <p class="text"> Preproduction ist die Phase in der Film- und Videoproduktion, die vor den eigentlichen Dreharbeiten stattfindet. In dieser Phase werden alle Vorbereitungen getroffen, um einen reibungslosen Produktionsablauf zu gewährleisten. Das umfasst das Schreiben des Drehbuchs, Casting, Standortauswahl, Budgetierung, Erstellung von Storyboards und einer Shotlist, Entwurf von Kulissen, Kostümen und Requisiten, Planung von Drehplänen sowie Absprachen mit dem technischen Team. Die Aufgaben in der Preproduction dienen dazu, die kreative Vision des Films zu konkretisieren, logistische Herausforderungen zu identifizieren und zu bewältigen, Ressourcen zu organisieren und sicherzustellen, dass alle Beteiligten auf denselben Zielen und Zeitplänen arbeiten. Die Qualität der Vorbereitung in der Preproduction hat einen direkten Einfluss auf den Erfolg der eigentlichen Dreharbeiten und darauf, wie gut die Vision des Films umgesetzt werden kann. </p>
+                <img src="img/storyboard-2.jpg" alt="storyboard" class="bild"> 
+    </div>
+    <div class="kasten" id="kastenPreproduction">
+        <div class="location-scouting liste" id="locationScouting" style="--i:4">
+        <h3>LOCATION-SCOUTING</h3>
+            <p class="kastenText">Location-Scouting ist die Auswahl von Drehorten für Film- oder Fotoproduktionen, bei der Orte erkundet werden, die dem Drehbuch entsprechen und die visuelle Ästhetik des Projekts verbessern.</p>
+        </div>    
+        <div class="casting liste" id="casting" style="--i:3">
+        <h3>CASTING</h3>
+            <p class="kastenText">Dies ist der Prozess der Auswahl von Schauspielern für bestimmte Rollen in einem Film. Der Casting-Direktor evaluiert und wählt Darsteller basierend auf deren Fähigkeiten, Aussehen und Eignung für die Charaktere. Dieser Auswahlprozess ist entscheidend, um die gewünschte Dynamik und Authentizität in einem Film zu erreichen.</p>
+        </div>
+        <div class="shotlist liste" id="shotlist" style="--i:2">
+        <h3>SHOTLIST</h3>
+            <p class="kastenText">Eine Shotlist ist eine detaillierte Auflistung aller geplanten Kameraeinstellungen (Shots) für einen Film oder eine Videoszene. Sie enthält Informationen über Kamerapositionen, Bewegungen, Fokussierungen und andere technische Aspekte. Die Shotlist hilft bei der effizienten Organisation und Umsetzung der Dreharbeiten.</p>
+        </div>
+        <div class="storyboard liste" id="storyboard" style="--i:1">
+        <h3>STORYBOARD</h3>
+            <p class="kastenText">Ein Storyboard ist eine visuelle Darstellung einer Film- oder Videosequenz in Form von Bildern oder Zeichnungen. Es dient dazu, die Reihenfolge der Szenen, Kameraeinstellungen und visuellen Elemente zu planen. Storyboards sind eine wichtige Prävisualisierungstechnik, die Regisseuren, Produzenten und Kreativteams helfen, ihre Vision zu kommunizieren und den Produktionsprozess zu strukturieren.</p>
+        </div>
+    </div>
+</section>
+
+<section class="production part" id="production-main" data-color="#e1a72f">
+    <h1 class="title" id="production-title">Production</h1>
+    <div class="square" id="squareProduction"></div>
+    <div class="flexRev">
+        <h2 class="title2" id="production">PRODUCTIONPRODUCTIONPRODUCTIONPRODUCTIONPRODUCTION</h2>
+            <p class="textRev">Die Production-Phase in der Film- und Videoproduktion umfasst die eigentlichen Dreharbeiten. Nach der umfassenden Vorbereitung in der Preproduction werden während dieser Phase alle vorbereiteten Pläne in die Realität umgesetzt. Schauspieler agieren vor der Kamera, Sets werden aufgebaut, und das technische Team führt Aufnahmen durch, darunter Licht, Ton und Kameraarbeit. Präzise Koordination und Zusammenarbeit zwischen den verschiedenen Teams sind entscheidend, um die kreative Vision des Films erfolgreich umzusetzen. Die Dreharbeiten erfordern Flexibilität, da unvorhergesehene Herausforderungen auftreten können. Nach Abschluss der Production-Phase erfolgt die Überführung des aufgenommenen Materials in die Postproduction, wo der Film durch Bearbeitung, Schnitt und Tonbearbeitung seinen finalen Schliff erhält.</p>
+                <img src="img/production-2.jpg" alt="production set" class="bild">
+    </div>
+    <div class="kasten" id="kastenProduction">
+        <div class="dreharbeiten liste" id="dreharbeiten" style="--i:1">
+        <h3>DREHARBEITEN</h3>
+            <p class="kastenText">Dreharbeiten sind der zentrale Teil der Filmproduktion. Während dieser Phase wird das vorbereitete Drehbuch umgesetzt: Schauspieler agieren vor der Kamera, Kameraleute nehmen Aufnahmen auf, und das technische Team kümmert sich um Beleuchtung und Ton. Präzise Koordination und reibungslose Zusammenarbeit sind entscheidend, um die kreative Vision des Films zum Leben zu erwecken.</p>
+        </div>   
+    </div> 
+</section>
+
+<section class="postproduction part" id="postproduction-main" data-color="#a3a87c">
+    <h1 class="title" id="postproduction-title">Post-Production</h1>
+    <div class="square" id="squarePostproduction"></div>
+    <div class="flex">
+        <h2 class="title2" id="postproduction">POSTPRODUCTIONPOSTPRODUCTIONPOSTPRODUCTIONPOSTPRODUCTIONPOSTPRODUCTION</h2>
+            <p class="text">Postproduction ist die abschließende Phase in der Film- und Videoproduktion. Hier wird das während der Dreharbeiten aufgenommene Material bearbeitet, geschnitten und mit visuellen und auditiven Elementen versehen. Die Bearbeitung erfolgt in spezialisierten Software-Tools. Der Schnittprozess umfasst die Auswahl und Anordnung der besten Aufnahmen, um eine kohärente Erzählung zu schaffen. Visual Effects, Animation und Farbkorrekturen werden hinzugefügt, um die visuelle Qualität zu optimieren. Der Ton wird bearbeitet, inklusive Dialoge, Hintergrundmusik und Soundeffekte. Die Postproduction ist entscheidend für die Verfeinerung und Perfektionierung des Films, um die gewünschte Wirkung zu erzielen. Nach Abschluss dieser Phase erfolgt die Premiere des fertigen Films für das Publikum.</p>
+                <img src="img/postproduction-2.jpg" alt="cutting room" class="bild"> 
+    </div>
+    <div class="kasten" id="kastenPostproduction">
+        <div class="schnitt liste" id="schnitt" style="--i:3">
+        <h3>SCHNITT</h3>
+            <p class="kastenText">Schnitt ist der Prozess in der Postproduction, in dem das aufgenommene Filmmaterial ausgewählt, arrangiert und bearbeitet wird. Dies umfasst den Zusammenschnitt von Szenen, die Anpassung der Bild- und Tonqualität, sowie die Integration von visuellen Effekten. Der Schnitt formt den endgültigen Film und beeinflusst stark dessen Struktur und Erzählfluss.</p>
+        </div>
+        <div class="vertonung liste" id="vertonung" style="--i:2">
+        <h3>VERTONUNG</h3>
+            <p class="kastenText">Vertonung ist der Prozess in der Postproduction, bei dem der Ton für einen Film erstellt oder bearbeitet wird. Das umfasst Dialoge, Hintergrundmusik, Soundeffekte und Atmosphäre. Die Vertonung trägt wesentlich zur Stimmung und Immersion des Films bei und erfolgt in spezialisierten Studios durch Toningenieure.</p>
+        </div>
+        <div class="grading liste" id="grading" style="--i:1">
+        <h3>GRADING</h3>
+            <p class="kastenText">Grading ist der Prozess der Farbkorrektur in der Postproduction eines Films. Hier werden Farben, Kontraste und Belichtung angepasst, um die visuelle Ästhetik zu verfeinern und eine konsistente Bildqualität zu erreichen. Das Grading trägt maßgeblich zur visuellen Atmosphäre und Wirkung des Films bei.</p>
+        </div>
+    </div>
+
+    <div id="empty"></div>
+</section>
+</main>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+<script src="js/script.js"></script>
+
+</html>
